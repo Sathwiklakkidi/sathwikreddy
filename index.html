@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>King Sukh Guest House</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+   body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+ }
+ 
+ header {
+   background-color:#EDF4F2;
+   color:#EDF4F2;
+ }
+ 
+ nav ul {
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+ }
+ 
+ nav ul li {
+   display: inline;
+   margin: 0 10px;
+ }
+ 
+ nav ul li a {
+   color: #b5a815;
+   text-decoration: none;
+ }
+ 
+ .hero {
+   background: url('hero-image.jpg') no-repeat center center/cover;
+   color: #fff;
+   text-align: center;
+   padding: 50px 0;
+ }
+ 
+ .services {
+   padding: 20px;
+ }
+ 
+ footer {
+   background-color: #333;
+   color: #fff;
+   text-align: center;
+   padding: 10px 0;
+   margin-top: auto;  
+ }
+ 
+ .nav-elements {
+   margin: 5px;
+   padding: 10px;
+   display: flex;
+   margin-right: 10px;
+ }
+ 
+ .nav-elements li {
+   margin: 0 15px;
+   margin-left: 50px;
+ }
+ .sp{
+    color:#31473A;
+    text-decoration: solid;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+ }
+ .hero-container {
+   width: 100%;
+   overflow: hidden; 
+ }
+ 
+ .hero-image {
+   width: 100%;  
+   height: auto;  
+   display: block;  
+ }
+ .hh1.heading-wrapper {
+   text-align: center;
+   }
+   .hh1 h2 {
+     color: #000;
+     border-bottom: 2px solid #15b6e5;
+     text-transform: uppercase;
+     font-weight: 700;
+     display: inline-block;
+     margin-left: 20px;
+ }
+ .image-text-container {
+     display: flex;  
+       
+ }
+ .image {
+     width: 300px;  
+     height: 400;  
+     margin-right: 15px;
+     margin-bottom: 15px;
+     margin-left: 15px;
+ }
+ 
+ .text {
+     max-width: px;  
+ }
+ .text h1 {
+     margin-top: 0;  
+ }
+ .hh2.heading-wrapper {
+   text-align: center;
+   }
+   .hh2 h2 {
+     color: #000;
+     border-bottom: 2px solid #15b6e5;
+     text-transform: uppercase;
+     font-weight: 700;
+     display: inline-block;
+     margin-left: 20px;
+   }
+   .card-container {
+     display: flex;
+      
+     margin-left: 20px;
+     flex-wrap: wrap;
+     margin-top: px;
+   }
+   .card{
+     width: 325px;
+     background-color: #f0f0f0;
+     border-radius: 8px;
+     overflow: hidden;
+     box-shadow: opx 2px 4px rgba(0,0,0,0.2);
+     margin: 20px;
+     
+ 
+   }
+   .card img {
+     width: 100%;
+     height: auto;
+   }
+   .card-content{
+     padding: 16px;
+   }
+   .card-content h3{
+     font-size:28px ;
+     margin-bottom: 8px;
+   }
+   .card-content p{
+     color: #666;
+     font-size: 15px;
+     line-height: 1.3;
+   }
+   .card-content .btn{
+     display: inline-block;
+     padding: 8px 16px;
+     background-color: #333;
+     text-decoration: none;
+     border-radius: 4px;
+     margin-top: 16px;
+     color: #fff;
+     
+   }
+   .nav-elements .btn{
+     display: inline-block;
+     padding: 8px 16px;
+     background-color: #333;
+     text-decoration: none;
+     border-radius: 4px;
+     margin-top: px;
+     color: #fff;
+ 
+   }
+   body, html {
+     margin: 0;
+     padding: 0;
+     height: 100%;
+ }
+ 
+ .container {
+     background-image: url('./palash.webp');  
+     background-size: cover;
+     
+     display: flex;
+     justify-content:center;
+     align-items: center;
+     height: 100vh;
+ }
+ 
+ .services {
+     background: rgba(255, 255, 255, 0.8);  
+     border-radius: 8px;
+     padding: 20px;
+     width: 300px;
+     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+ }
+ 
+ h {
+     color: #333;
+     font-size: 24px;
+     text-align: center;
+     margin-bottom: 20px;
+ }
+ 
+ ul {
+     list-style: none;
+     padding: 0;
+ }
+ 
+ li {
+     margin-bottom: 10px;
+     font-size: 18px;
+     color: #555;
+ }
+ 
+ .icon {
+     margin-right: 10px;
+ }
+ .services h1{
+   color: red;
+ }
+  
+ .stats-box {
+     width: 80%;
+     max-width: 800px;
+     height: 150px;
+     background-color: #ffffff;
+     border-radius: 15px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     margin-left: 200px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+ 
+ }
+ 
+ .stat {
+     text-align: center;
+ }
+ 
+ .stat h1 {
+     font-size: 36px;
+     margin: 0;
+     color: #000;
+ }
+ 
+ .stat p {
+     margin: 5px 0 0;
+     color: #666;
+     font-size: 16px;
+ }
+ .hh3 h2 {
+     color: #000;
+     border-bottom: 2px solid #15b6e5;
+     text-transform: uppercase;
+     font-weight: 700;
+     display: inline-block;
+     margin-left: 20px;
+     align-items: center;
+ }
+ .hh3.heading-wrapper {
+   text-align: center;
+   justify-content: center;
+   }
+   .hh3 {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ .heading-wrapper hh3 {
+     width: 100%;
+     text-align: center;
+ }
+ 
+ .heading-wrapper h2 {
+     font-size: 36px; 
+     color: #333;  
+ }
+  
+ 
+ .gallery {
+     display: grid;
+     grid-template-columns: repeat(6, 1fr);
+     grid-template-rows: repeat(3, 200px);
+     gap: px;
+     padding: 10px;
+ }
+ 
+ .gallery img {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+     border-radius: 1
+ }
+ 
+ .gallery img:nth-child(1) {
+     grid-column: span 2;
+     grid-row: span 2;
+ }
+ 
+ .gallery img:nth-child(2) {
+     grid-column: span 3;
+     grid-row: span 1;
+ }
+ 
+ .gallery img:nth-child(3) {
+     grid-column: span 1;
+     grid-row: span 2;
+ }
+ 
+ .gallery img:nth-child(4) {
+     grid-column: span 2;
+     grid-row: span 1;
+ }
+ 
+ .gallery img:nth-child(5) {
+     grid-column: span 1;
+     grid-row: span 1;
+ }
+ 
+ .gallery img:nth-child(6) {
+     grid-column: span 2;
+     grid-row: span 2;
+ }
+ 
+ .gallery img:nth-child(7) {
+     grid-column: span 1;
+     grid-row: span 1;
+ }
+ 
+ .gallery img:nth-child(8) {
+     grid-column: span 2;
+     grid-row: span 1;
+ }
+ 
+ .gallery img:nth-child(9) {
+     grid-column: span 1;
+     grid-row: span 1;
+ }
+ 
+ .gallery img:nth-child(10) {
+     grid-column: span 1;
+     grid-row: span 2;
+ }
+ .container-form {
+             display: flex;
+             background-color: #fff;
+             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+             border-radius: 8px;
+             overflow: hidden;
+             width: 60%;
+             max-width: 900px;
+             padding: 20px;
+         }
+         .contact-info {
+             padding: 20px;
+             background-color: #e7e7e7;
+             width: 40%;
+             box-sizing: border-box;
+             border-radius: 10px;
+         }
+         .contact-info h3 {
+             margin-top: 0;
+             margin-bottom: 10px;
+         }
+         .contact-info p {
+             margin: 5px 0;
+             color: #555;
+         }
+         .form-section {
+             padding: 20px;
+             width: 60%;
+             box-sizing: border-box;
+         }
+         .form-section form {
+             display: flex;
+             flex-direction: column;
+         }
+         .form-section input[type="text"], 
+         .form-section input[type="email"], 
+         .form-section textarea {
+             margin-bottom: 15px;
+             padding: 10px;
+             font-size: 14px;
+             border: 1px solid #ccc;
+             border-radius: 4px;
+             width: 100%;
+             box-sizing: border-box;
+         }
+         .form-section button {
+             padding: 10px 20px;
+             background-color: #4CAF50;
+             color: white;
+             border: none;
+             border-radius: 4px;
+             cursor: pointer;
+         }
+         .form-section button:hover {
+             background-color: #45a049;
+         }
+         .map-container {
+           width: 100%;
+           height: 100vh;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           flex-direction: column;
+         }
+         iframe {
+           width:80%;
+           height: 500px;
+           filter: invert(100%);
+         }
+         .footer {
+             display: flex;
+             flex-wrap: wrap;
+             justify-content: space-between;
+             padding: 40px;
+             padding-bottom: 20px;
+             background-color: #000;
+         }
+         .footer div {
+             max-width: 25%;
+             min-width: 200px;
+             margin-bottom: 20px;
+         }
+         .footer h3 {
+             margin-bottom: 20px;
+             font-size: 20px;
+         }
+         .footer p {
+             line-height: 1.6;
+             font-size: 14px;
+         }
+         .footer a {
+             color: #fff;
+             text-decoration: none;
+             display: block;
+             margin-bottom: 10px;
+             font-size: 14px;
+             transition: filter 0.3s ease;
+         }
+         .footer a:hover {
+             filter: brightness(1.3);
+         }
+         .footer .contact-info p, 
+         .footer .contact-info a {
+             font-size: 14px;
+         }
+         .footer .social-icons {
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             gap: 10px;
+             margin-top: 20px;
+              
+              
+         }
+         .footer .social-icons a {
+             transition: filter 0.3s ease;
+         }
+         .footer .social-icons img {
+             width: 24px;
+             height: 24px;
+         }
+         .footer .social-icons a:hover img {
+             filter: brightness(1.3);
+         }
+         .footer .copyright {
+             justify-content: center;
+             text-align:center ;
+             font-size: 12px;
+             margin-top: 20px;
+             margin-bottom: 0;
+         }
+         .footer .copyright .p{
+           color: #15b6e5;
+         }
+         .footer .button {
+             display: inline-block;
+             padding: 10px 20px;
+             background-color: #ff007f;
+             color: #fff;
+             text-decoration: none;
+             border-radius: 5px;
+             margin-top: 20px;
+             transition: filter 0.3s ease;
+         }
+         .footer .button:hover {
+             filter: brightness(1.3);
+         }
+ 
+         /* Responsive Design */
+         @media (max-width: 768px) {
+             .footer {
+                 flex-direction: column;
+                 align-items: center;
+                 text-align: center;
+             }
+             .footer div {
+                 max-width: 100%;
+             }
+             .footer .social-icons {
+                 justify-content: center;
+             }
+         }
+         
+         @media (max-width: 480px) {
+             .footer .button {
+                 padding: 8px 16px;
+                 font-size: 14px;
+             }
+             .footer p {
+                 font-size: 12px;
+             }
+         }
+ 
+ @media (max-width: 768px) {
+   nav ul li {
+     display: block;
+     margin: 10px 0;
+   }
+ }
+ </style>
+ </head>
+ <body>
+   <header>
+     <nav>
+       <ul class="nav-elements">
+         <span class="sp">TAJ GUEST HOUSE</span>
+         <li><a href="#">Home</a></li>
+         <li><a href="#">About Us</a></li>
+         <li><a href="#">Rooms</a></li>
+         <li><a href="#">Rates</a></li>
+         <li><a href="#">Contact Us</a></li>
+         <li><a href="https://wa.me/9581316270?text=Hello%2C%20I'm%20interested%20in%20booking%20your%20service." class="btn" style="background-color: red; color: white;">Book Now</a></li>
+       </ul>
+     </nav>
+   </header>
+   <div class="hero-container">
+     <img src="./images/bg pic.webp" alt="Hero Image" class="hero-image">
+   </div>
+   <div class="hh1"> 
+   <div class="col-md-12 heading-wrapper">
+    <h2  ><span>About Us</span> </h2></div>
+   </div>
+   <div class="image-text-container">
+     <img src="./images/out.jpg" height="400" width="300" style="border-radius: 10px;" class="image">
+     <div class="text">
+       <h1>The Best Holidays Start Here! </h1>
+       <p>Embark on a tranquil journey at our Kingsukh Guest House, enveloped by the scenic allure of Biharinath Hill, Baranti Hill, Susunia Hill, Joychandi Hill, Garhpanchkot, Baranti Dam, Maithon Dam, and the captivating Panchat Dam. Revel in the embrace of comfort, relish delightful meals, and unwind in our verdant garden oasis. Your ideal retreat beckons, promising a harmonious blend of nature's beauty and heartfelt hospitality. Explore the hidden gems of Purulia, creating memories that linger long after your stay.</p>
+       <h3><a href="https://maps.app.goo.gl/7wYUEB4tvR7NMHbcA" target="_blank" style="text-decoration: none; color:blue;">Address:KPHB,Hyderabad,Telangana</a></h3></br>
+       <h3>Contact Us:+91 1234567890</h3>
+ 
+ 
+     </div></div>
+     <div class="hh2">
+     <div class="col-md-12 heading-wrapper"> 
+       <h2><span> Our Living Room</span></h2>
+       <h1 style="margin-left: 20px; margin-top: 10px;">The Most Memorable Rest Time Starts Here.</h1>
+     </div>
+   </div>
+   <div class="card-container">
+     <div class="card">
+       <img src="images/small.jpg" alt="">
+       <div class="card-content">
+         <h3>Cozy Haven Room</h3>
+         <p>Escape to comfort in our Cozy Haven Room, a snug retreat designed for intimate relaxation.</p>
+         <p>Starting from <span style="font-weight: bold;"> Rs. 1000/night</span></p>
+         <a href="" class="btn" style="color: white; background-color: red;">Book Now</a>
+       </div>
+     </div>
+     <div class="card">
+       <img src="images/room1.jpg" alt="">
+       <div class="card-content">
+         <h3>Spacious Serenity Suite </h3>
+         <p>Indulge in luxury and ample space in our Spacious Serenity Suite, where tranquility meets roomy elegance.</p>
+         <p>Starting from <span style="font-weight: bold;"> Rs. 1500/night</span></p>
+         <a href="" class="btn" style="color: white; background-color: red;">Book Now</a>
+       </div>
+     </div>
+     </div>
+     <div class="container">
+       <div class="services">
+          <h1>SERVICES</h1>
+           <h2>Strive Only For The Best.</h2>
+           <ul>
+               <li><span class="icon">🔒</span>High Class Security</li>
+               <li><span class="icon">⏰</span>24 Hours Room Service</li>
+               <li><span class="icon">🍴</span>Restaurant</li>
+               <li><span class="icon">🌍</span>Tourist Guide Support</li>
+           </ul>
+       </div>
+   </div>
+    
+   <div class="stats-box">
+     <div class="stat">
+         <h1>100+</h1>
+         <p>Bookings Completed</p>
+     </div>
+     <div class="stat">
+         <h1>150+</h1>
+         <p>Happy Customers</p>
+     </div>
+ </div>
+ <div class="hh3"> 
+   <div class="col-md-12 heading-wrapper">
+    <h2 >GALLERY</h2></div>
+   </div>
+   <div class="gallery">
+     <img src="./out.jpg" alt="Image 1">
+     <img src="./bg pic.webp" alt="Image 2">
+     <img src="./recep.jpg" alt="Image 3">
+     <img src="./large.jpg" alt="Image 4"> 
+     <img src="./mithonDam.webp" alt="Image 5"> 
+     <img src="./room1.jpg" alt="Image 6">
+     <img src="./palash.webp" alt="Image 7"> 
+     <img src="./baranti.webp" alt="Image 8"> 
+     <img src="./1.jpg" alt="Image 9"> 
+     
+   </div>
+   <div class="container">
+     <div class="contact-info">
+         <h3>Contact Info</h3>
+         <p>Kphb,Hyderabad,Telangana 500101</p>
+         <p>email:tajguesthouse@gmail.com</p>
+         <p>Phone: +91 1234567890</p>
+     </div>
+     <div class="form-section">
+         <h3 style="color:gold;">Send a Message</h3>
+         <form id="messageForm">
+           <input type="text" id="firstName" name="firstName" placeholder="First Name" required>
+           <input type="text" id="lastName" name="lastName" placeholder="Last Name" required>
+           <input type="email" id="email" name="email" placeholder="Email Address" required>
+           <input type="text" id="mobile" name="mobile" placeholder="Mobile Number" required>
+           <textarea id="message" name="message" placeholder="Write your message here..." rows="5" required></textarea>
+           <button type="submit">Send</button>
+       </form>
+     </div>
+ </div>
+    <div class="map-container">
+     <h1>Location</h1>
+     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3805.3018027195185!2d78.3995479!3d17.4931008!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb91f30076cb0f%3A0xd71e8dba19e3b3ae!2sKPHB%20METRO!5e0!3m2!1sen!2sin!4v1725372513500!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <footer class="footer">
+     <div>
+         <h3>Kingsukh Guest House</h3>
+         <p>Discover a world of comfort, luxury, and adventure as you explore our curated selection of hotels, making every moment of your getaway truly extraordinary.</p>
+         <a href="#" class="button">Book Now</a>
+     </div>
+     <div>
+         <h3>Quick Links</h3>
+         <a href="#">Browse Destinations</a>
+         <a href="#">Special Offers & Packages</a>
+         <a href="#">Room Types & Amenities</a>
+         <a href="#">Customer Reviews & Ratings</a>
+         <a href="#">Travel Tips & Guides</a>
+     </div>
+     <div>
+         <h3>Our Services</h3>
+         <a href="#">Concierge Assistance</a>
+         <a href="#">Flexible Booking Options</a>
+         <a href="#">Airport Transfers</a>
+         <a href="#">Wellness & Recreation</a>
+     </div>
+     <div>
+         <h3>Contact Us</h3>
+         <p>Address: Kphb,Hyderabad,Telangana 500101</p>
+         <p>Email: <a href="mailto:tajguesthouse@gmail.com">tajguesthouse@gmail.com</a></p>
+         <p>Phone: <a href="tel:+919007062180">+91 1234567890</a></p>
+         <div class="social-icons">
+             <a href="#"><img src="https://img.icons8.com/fluent/48/000000/facebook-new.png" alt="Facebook"></a>
+             <a href="#"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png" alt="Instagram"></a>
+             <a href="#"><img src="https://img.icons8.com/fluent/48/000000/youtube-play.png" alt="YouTube"></a>
+             <a href="#"><img src="https://img.icons8.com/fluent/48/000000/twitter.png" alt="Twitter"></a>
+         </div>
+     </div>
+     <p  >Copyright © 2024 Kingsukh Guest House. All rights reserved.</p>
+ 
+ </footer>
+ <script>
+   document.addEventListener("DOMContentLoaded", function() {
+   console.log("DOM fully loaded and parsed");
+ 
+   document.getElementById("messageForm").addEventListener("submit", function(event) {
+       console.log("Submit event triggered");
+ 
+       event.preventDefault(); // Prevent the form from submitting the traditional way
+ 
+       // Get form values
+       var firstName = document.getElementById("firstName").value;
+       var lastName = document.getElementById("lastName").value;
+       var email = document.getElementById("email").value;
+       var mobile = document.getElementById("mobile").value;
+       var message = document.getElementById("message").value;
+ 
+       // Debugging logs
+       console.log("Form values:", { firstName, lastName, email, mobile, message });
+ 
+       // Check if all fields are filled
+       if (firstName === "" || lastName === "" || email === "" || mobile === "" || message === "") {
+           alert("Please fill all credentials.");
+           return; // Stop execution if any field is missing
+       }
+ 
+       // Validate mobile number (10 digits only)
+       if (!/^\d{10}$/.test(mobile)) {
+           alert("Invalid mobile number. Please enter 10 digits.");
+           return;
+       }
+ 
+       // Create an object to store the form data
+       var formData = {
+           firstName: firstName,
+           lastName: lastName,
+           email: email,
+           mobile: mobile,
+           message: message
+       };
+ 
+       // Store the form data in local storage
+       localStorage.setItem("messageFormData", JSON.stringify(formData));
+ 
+       // Clear the form after saving the data
+       document.getElementById("messageForm").reset();
+ 
+       // Alert the user that the data has been saved successfully
+       alert("Data saved successfully!");
+   });
+ });
+ </script>  
+     
+  
+ 
+</body>
+</html>
